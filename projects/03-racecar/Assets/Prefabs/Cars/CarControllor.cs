@@ -12,7 +12,7 @@ public class CarControllor : MonoBehaviour {
 	void Update () {
 		if(Input.GetKey(KeyCode.W))
 		{
-			this.transform.Translate(Vector3.forward*Time.deltaTime*5);
+			this.transform.Translate(Vector3.forward*Time.deltaTime*30);
 		}
 	
 	}

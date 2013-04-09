@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_2;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_2;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_ANDROID;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -37,13 +37,47 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>E:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>E:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\EasyTouch\Examples\Example-FreeCam\FreeCam.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-FreeCam\Menufree.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-GameController\DemonContoller.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-GameController\MenuGameController.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-ManipulationImage\MenuPhoto.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-ManipulationImage\PhotoScript.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-Multiplefingers\CameraTouch.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-Multiplefingers\MenuTap.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-Multiplefingers\ObjectTouch.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-Multiplefingers\_OtherScript\SlowRotate.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-Multiplefingers\_OtherScript\bord.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-OneFinger\DoubleTap.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-OneFinger\Drag.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-OneFinger\Longtap.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-OneFinger\MenuOnFinger.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-OneFinger\Swipe.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-OneFinger\Tap.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-OneFinger\TouchStart.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-StartMenu\MenuStart.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\MenuTwoFinger.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\Pinch.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\Twist.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\TwoDoubleTap.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\TwoDrag.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\TwoLongTap.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\TwoSwipe.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\TwoTap.js" />
+     <Compile Include="Assets\EasyTouch\Examples\Example-TwoFinger\TwoTouchStart.js" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouch.js" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouchInput.js" />
+     <Compile Include="Assets\EasyTouch\Plugins\EasyTouchTemplate.js" />
+     <Compile Include="Assets\EasyTouch\Plugins\EsayTouchStruct.js" />
+     <Compile Include="Assets\Scripts\Car Control\PlayerCar_Script.js" />
+     <Compile Include="Assets\Scripts\Car Control\WheelAlignment_Script.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\CameraRelativeControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\FollowTransform.js" />
@@ -56,16 +90,23 @@
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\SmoothFollow2D.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\ZoomCamera.js" />
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
+     <None Include="Assets\EasyTouch\Documentation\How to start.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Artwork\Car\Shaders\ConstantColorUnderLayer_Shader.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
      <None Include="Assets\shader\Compiled-CarPaint-3Fresnel.shader" />
+     <None Include="Assets\EasyTouch\Documentation\Easy Touch Static.txt" />
+     <None Include="Assets\EasyTouch\Documentation\Methods documentation.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Particles Additive Culled.shader" />
+     <None Include="Assets\EasyTouch\Readme.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\EasyTouch\Documentation\Concepts (read first).txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Only.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap AlphaTest.shader" />
+     <None Include="Assets\EasyTouch\Documentation\Easy Touch Parameters.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
